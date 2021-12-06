@@ -97,38 +97,11 @@
 .header-navlink2:hover {
   color: var(--dl-color-gray-500);
 }
-.header-container1 {
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header-container2 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.header-icon {
-  width: 24px;
-  height: 24px;
-  display: none;
-  margin-left: var(--dl-space-space-unit);
-}
 @media(max-width: 991px) {
   .header-nav {
     max-width: 960px;
   }
   .header-menu {
-    display: none;
-  }
-  .header-icon {
-    display: flex;
-  }
-}
-@media(max-width: 479px) {
-  .header-container2 {
     display: none;
   }
 }
